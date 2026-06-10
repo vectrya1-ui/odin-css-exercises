@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+.odd {
+    background-color: rgb(245, 138, 195);
+    /* Use double quotes around font family name if it includes spaces */
+    font-family: Verdana, "DejaVu sans", sans-serif;
+}
+
+#two {
+    color: rgb(42, 42, 247);
+    font-size: 36px;
+}
+
+#four {
+    background-color: rgb(116, 170, 116);
+    font-weight: bold;
+}
+
+#three #four {
+    font-size: 24px;
+}
